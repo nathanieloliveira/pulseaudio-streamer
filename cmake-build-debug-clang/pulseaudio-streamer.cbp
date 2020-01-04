@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="pulseaudio-streamer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\build\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\usr\;CMake Files\..\..\..\usr\lib64\;CMake Files\..\..\..\usr\lib64\cmake\;CMake Files\..\..\..\usr\lib64\cmake\PulseAudio\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/nth/pulseaudio-streamer/cmake-build-debug-clang"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/nth/pulseaudio-streamer/cmake-build-debug-clang/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/nth/pulseaudio-streamer/cmake-build-debug-clang/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/nth/pulseaudio-streamer/cmake-build-debug-clang/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/nth/pulseaudio-streamer/cmake-build-debug-clang/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/nth/pulseaudio-streamer/cmake-build-debug-clang"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/nth/pulseaudio-streamer/cmake-build-debug-clang/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/nth/pulseaudio-streamer/cmake-build-debug-clang/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/nth/pulseaudio-streamer/cmake-build-debug-clang/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/nth/pulseaudio-streamer/cmake-build-debug-clang/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pulseaudio-streamer">
+				<Option output="/home/nth/pulseaudio-streamer/cmake-build-debug-clang/bin/pulseaudio-streamer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nth/pulseaudio-streamer/cmake-build-debug-clang/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/nth/.conan/data/boost/1.71.0/conan/stable/package/82f8fe1ada2e1c4296f37673914b1509dc37dcc3/include"/>
+					<Add directory="/home/nth/.conan/data/zlib/1.2.11/conan/stable/package/961755854760682044d37dabfc2d998658edf961/include"/>
+					<Add directory="/home/nth/.conan/data/bzip2/1.0.8/conan/stable/package/d91c5078b0c5af8e17bc80e2389019770a579bcc/include"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/nth/pulseaudio-streamer/cmake-build-debug-clang/Makefile&quot;  VERBOSE=1 pulseaudio-streamer"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/nth/pulseaudio-streamer/cmake-build-debug-clang/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/nth/pulseaudio-streamer/cmake-build-debug-clang/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/nth/pulseaudio-streamer/cmake-build-debug-clang/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pulseaudio-streamer/fast">
+				<Option output="/home/nth/pulseaudio-streamer/cmake-build-debug-clang/bin/pulseaudio-streamer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nth/pulseaudio-streamer/cmake-build-debug-clang/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/nth/.conan/data/boost/1.71.0/conan/stable/package/82f8fe1ada2e1c4296f37673914b1509dc37dcc3/include"/>
+					<Add directory="/home/nth/.conan/data/zlib/1.2.11/conan/stable/package/961755854760682044d37dabfc2d998658edf961/include"/>
+					<Add directory="/home/nth/.conan/data/bzip2/1.0.8/conan/stable/package/d91c5078b0c5af8e17bc80e2389019770a579bcc/include"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/nth/pulseaudio-streamer/cmake-build-debug-clang/Makefile&quot;  VERBOSE=1 pulseaudio-streamer/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/nth/pulseaudio-streamer/cmake-build-debug-clang/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/nth/pulseaudio-streamer/cmake-build-debug-clang/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/nth/pulseaudio-streamer/cmake-build-debug-clang/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/nth/pulseaudio-streamer/cmake-build-debug-clang"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/nth/pulseaudio-streamer/cmake-build-debug-clang/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/nth/pulseaudio-streamer/cmake-build-debug-clang/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/nth/pulseaudio-streamer/cmake-build-debug-clang/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/nth/pulseaudio-streamer/cmake-build-debug-clang/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/nth/pulseaudio-streamer/asio-mainloop.cpp">
+			<Option target="pulseaudio-streamer"/>
+		</Unit>
+		<Unit filename="/home/nth/pulseaudio-streamer/asio-mainloop.h">
+			<Option target="pulseaudio-streamer"/>
+		</Unit>
+		<Unit filename="/home/nth/pulseaudio-streamer/main.cpp">
+			<Option target="pulseaudio-streamer"/>
+		</Unit>
+		<Unit filename="/home/nth/pulseaudio-streamer/pulse_audio_controller.cpp">
+			<Option target="pulseaudio-streamer"/>
+		</Unit>
+		<Unit filename="/home/nth/pulseaudio-streamer/pulse_audio_controller.h">
+			<Option target="pulseaudio-streamer"/>
+		</Unit>
+		<Unit filename="/home/nth/pulseaudio-streamer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/nth/pulseaudio-streamer/build/conanbuildinfo.cmake">
+			<Option virtualFolder="CMake Files\build\"/>
+		</Unit>
+		<Unit filename="/home/nth/pulseaudio-streamer/../../../usr/lib64/cmake/PulseAudio/PulseAudioConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib64\cmake\PulseAudio\"/>
+		</Unit>
+		<Unit filename="/home/nth/pulseaudio-streamer/../../../usr/lib64/cmake/PulseAudio/PulseAudioConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib64\cmake\PulseAudio\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

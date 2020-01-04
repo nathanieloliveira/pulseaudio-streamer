@@ -1,0 +1,34 @@
+{
+ "profile_host": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Release\ncompiler=clang\ncompiler.libcxx=libstdc++\ncompiler.version=9\nos=Linux\nos_build=Linux\n[options]\n[build_requires]\n[env]\n",
+ "graph_lock": {
+  "nodes": {
+   "fb5239c6-1551-11ea-8744-7824af3371e9": {
+    "pref": "zlib/1.2.11@conan/stable#0:961755854760682044d37dabfc2d998658edf961#5145d63067d9f10ff07d030618032ea1",
+    "options": "fPIC=True\nminizip=False\nshared=False"
+   },
+   "fb523af2-1551-11ea-8744-7824af3371e9": {
+    "pref": "bzip2/1.0.8@conan/stable#0:d91c5078b0c5af8e17bc80e2389019770a579bcc#398fbdda8c581849ea87fca0b2799859",
+    "options": "build_executable=True\nfPIC=True\nshared=False"
+   },
+   "fb523ca0-1551-11ea-8744-7824af3371e9": {
+    "pref": null,
+    "options": "boost:asio_no_deprecated=False\nboost:bzip2=True\nboost:error_code_header_only=False\nboost:extra_b2_flags=None\nboost:fPIC=True\nboost:filesystem_no_deprecated=False\nboost:header_only=False\nboost:layout=system\nboost:lzma=False\nboost:magic_autolink=False\nboost:namespace=boost\nboost:namespace_alias=False\nboost:python_executable=None\nboost:python_version=None\nboost:segmented_stacks=False\nboost:shared=False\nboost:system_no_deprecated=False\nboost:use_icu=False\nboost:without_atomic=False\nboost:without_chrono=False\nboost:without_container=False\nboost:without_context=False\nboost:without_contract=False\nboost:without_coroutine=False\nboost:without_date_time=False\nboost:without_exception=False\nboost:without_fiber=False\nboost:without_filesystem=False\nboost:without_graph=False\nboost:without_graph_parallel=False\nboost:without_iostreams=False\nboost:without_locale=False\nboost:without_log=False\nboost:without_math=False\nboost:without_mpi=False\nboost:without_program_options=False\nboost:without_python=True\nboost:without_random=False\nboost:without_regex=False\nboost:without_serialization=False\nboost:without_stacktrace=False\nboost:without_system=False\nboost:without_test=False\nboost:without_thread=False\nboost:without_timer=False\nboost:without_type_erasure=False\nboost:without_wave=False\nboost:zlib=True\nboost:zstd=False\nbzip2:build_executable=True\nbzip2:fPIC=True\nbzip2:shared=False\nzlib:fPIC=True\nzlib:minizip=False\nzlib:shared=False",
+    "requires": {
+     "zlib/1.2.11@conan/stable#0": "fb5239c6-1551-11ea-8744-7824af3371e9",
+     "bzip2/1.0.8@conan/stable#0": "fb523af2-1551-11ea-8744-7824af3371e9",
+     "boost/1.71.0@conan/stable#0": "fb523b92-1551-11ea-8744-7824af3371e9"
+    },
+    "path": "/home/nth/pulseaudio-streamer/conanfile.txt"
+   },
+   "fb523b92-1551-11ea-8744-7824af3371e9": {
+    "pref": "boost/1.71.0@conan/stable#0:82f8fe1ada2e1c4296f37673914b1509dc37dcc3#ad63406e973e4d50eca35e9694cd57c0",
+    "options": "asio_no_deprecated=False\nbzip2=True\nerror_code_header_only=False\nextra_b2_flags=None\nfPIC=True\nfilesystem_no_deprecated=False\nheader_only=False\nlayout=system\nlzma=False\nmagic_autolink=False\nnamespace=boost\nnamespace_alias=False\npython_executable=None\npython_version=None\nsegmented_stacks=False\nshared=False\nsystem_no_deprecated=False\nuse_icu=False\nwithout_atomic=False\nwithout_chrono=False\nwithout_container=False\nwithout_context=False\nwithout_contract=False\nwithout_coroutine=False\nwithout_date_time=False\nwithout_exception=False\nwithout_fiber=False\nwithout_filesystem=False\nwithout_graph=False\nwithout_graph_parallel=False\nwithout_iostreams=False\nwithout_locale=False\nwithout_log=False\nwithout_math=False\nwithout_mpi=False\nwithout_program_options=False\nwithout_python=True\nwithout_random=False\nwithout_regex=False\nwithout_serialization=False\nwithout_stacktrace=False\nwithout_system=False\nwithout_test=False\nwithout_thread=False\nwithout_timer=False\nwithout_type_erasure=False\nwithout_wave=False\nzlib=True\nzstd=False\nbzip2:build_executable=True\nbzip2:fPIC=True\nbzip2:shared=False\nzlib:fPIC=True\nzlib:minizip=False\nzlib:shared=False",
+    "requires": {
+     "zlib/1.2.11@conan/stable#0": "fb5239c6-1551-11ea-8744-7824af3371e9",
+     "bzip2/1.0.8@conan/stable#0": "fb523af2-1551-11ea-8744-7824af3371e9"
+    }
+   }
+  }
+ },
+ "version": "0.1"
+}
